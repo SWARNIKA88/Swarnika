@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallipudi Swarnika | AI/ML Engineer & Full-Stack AI Developer</title>
+    <meta name="description" content="Portfolio of Mallipudi Swarnika, AI/ML Engineer specializing in Deep Learning, Computer Vision, NLP, and Full-Stack AI systems.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Fixed Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="brand-logo">
+                <span class="logo-box">MS</span>
+                <span class="logo-text">Swarnika<span class="dot">.ai</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#publications" class="nav-link">Research & Certs</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="./assests/swarnika resume 3.pdf" class="btn btn-outline nav-btn" download target="_blank">
+                    <i class="fa-solid fa-file-arrow-down"></i> Resume
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-bg-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-badge">
+                        <span class="pulse-dot"></span> Available for AI/ML Roles
+                    </div>
+                    <h1 class="hero-title">Mallipudi Swarnika</h1>
+                    <h2 class="hero-subtitle">AI/ML Engineer & Full-Stack AI Developer</h2>
+                    <p class="hero-description">
+                        Computer Science Engineering graduate specializing in Deep Learning, Computer Vision, NLP, and intelligent system deployment across healthcare, accessibility, and biometric security domains.
+                    </p>
+                    <div class="hero-tags">
+                        <span class="hero-tag"><i class="fa-brands fa-python"></i> PyTorch & TensorFlow</span>
+                        <span class="hero-tag"><i class="fa-solid fa-eye"></i> Computer Vision</span>
+                        <span class="hero-tag"><i class="fa-solid fa-database"></i> Vector Databases (Pinecone)</span>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-code"></i> View Projects</a>
+                        <a href="./assests/swarnika resume 3.pdf" class="btn btn-secondary" download target="_blank"><i class="fa-solid fa-download"></i> Download Resume</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fa-regular fa-envelope"></i> Contact Me</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://linkedin.com/in/swarnika-mallipudi-648699289" target="_blank" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:swarnikamallipudi5@gmail.com" aria-label="Email Address"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:+918639549156" aria-label="Phone Number"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about-section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Overview</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card main-summary">
+                        <i class="fa-solid fa-brain summary-icon"></i>
+                        <h3>Professional Summary</h3>
+                        <p>
+                            I am an AI/ML-focused Computer Science Engineering graduate with hands-on experience in deep learning, computer vision, natural language processing, and full-stack AI development.
+                        </p>
+                        <p>
+                            My technical toolkit includes PyTorch, TensorFlow, OpenCV, MediaPipe, and Pinecone vector databases. I specialize in engineering production-grade intelligent solutions targeting critical healthcare automation, real-time accessibility translation, and high-precision biometric security systems.
+                        </p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <h4>Biometric Security</h4>
+                            <p>Real-time hybrid face recognition using FaceNet & Pinecone embeddings.</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                            <h4>Healthcare AI</h4>
+                            <p>Multi-modal pill classification, OCR, and RL-driven medication scheduling.</p>
+                        </div>
+                        <div class="highlight-card">
+                            <i class="fa-solid fa-universal-access"></i>
+                            <h4>Accessibility Tech</h4>
+                            <p>SLTS-CNN converting ASL gestures directly into real-time text and speech.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Capabilities</span>
+                    <h2 class="section-title">Technical Expertise</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-robot"></i>
+                            <h3>AI & Machine Learning</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">Deep Learning</span>
+                            <span class="skill-badge">Computer Vision</span>
+                            <span class="skill-badge">NLP</span>
+                            <span class="skill-badge">Reinforcement Learning</span>
+                            <span class="skill-badge">Linear & Logistic Regression</span>
+                            <span class="skill-badge">MobileNet</span>
+                            <span class="skill-badge">FaceNet</span>
+                            <span class="skill-badge">Predictive Modelling</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-microchip"></i>
+                            <h3>Libraries & Frameworks</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">PyTorch</span>
+                            <span class="skill-badge">TensorFlow</span>
+                            <span class="skill-badge">Scikit-learn</span>
+                            <span class="skill-badge">OpenCV</span>
+                            <span class="skill-badge">MediaPipe</span>
+                            <span class="skill-badge">NumPy</span>
+                            <span class="skill-badge">Pandas</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">Java</span>
+                            <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">TypeScript</span>
+                            <span class="skill-badge">JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Backend & Databases</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">Pinecone (Vector DB)</span>
+                            <span class="skill-badge">PostgreSQL</span>
+                            <span class="skill-badge">Prisma ORM</span>
+                            <span class="skill-badge">Node.js</span>
+                            <span class="skill-badge">Express.js</span>
+                            <span class="skill-badge">Flask</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category wide-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Tools, MLOps & Environments</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-badge">Docker</span>
+                            <span class="skill-badge">Git</span>
+                            <span class="skill-badge">macOS Terminal</span>
+                            <span class="skill-badge">Jupyter Notebook</span>
+                            <span class="skill-badge">Google Colab</span>
+                            <span class="skill-badge">Tesseract OCR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internship Experience Section -->
+        <section class="section experience-section" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Career History</span>
+                    <h2 class="section-title">Internship Experience</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- Lomaa IT Solutions -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="role-title">Artificial Intelligence Intern</h3>
+                                    <h4 class="company-name">Lomaa IT Solutions</h4>
+                                </div>
+                                <span class="duration-badge">Dec 2025 – Mar 2025</span>
+                            </div>
+                            <ul class="experience-bullets">
+                                <li>Completed an intensive full-semester offline internship focused entirely on Artificial Intelligence research and engineering.</li>
+                                <li>Developed a Hybrid Face Recognition System capable of real-time face detection and recognition combining deep learning architectures with traditional image processing techniques.</li>
+                                <li>Implemented PyTorch and FaceNet for high-dimensional facial feature extraction, normalizing embeddings to achieve higher matching accuracy.</li>
+                                <li>Integrated Pinecone vector database for efficient storage and rapid vector retrieval of facial embeddings, significantly reducing computational latency during real-time processing.</li>
+                            </ul>
+                            <div class="tech-stack-used">
+                                <span>PyTorch</span>
+                                <span>FaceNet</span>
+                                <span>Pinecone</span>
+                                <span>OpenCV</span>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Agratas EduTech -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="role-title">Machine Learning Intern</h3>
+                                    <h4 class="company-name">Agratas EduTech</h4>
+                                </div>
+                                <span class="duration-badge">June 2025 – Aug 2025</span>
+                            </div>
+                            <ul class="experience-bullets">
+                                <li>Developed and optimized machine learning models leveraging Python, Scikit-learn, Pandas, and NumPy.</li>
+                                <li>Performed exploratory data analysis, data preprocessing, feature engineering, and parameter tuning across supervised and unsupervised algorithms applied to real-world datasets.</li>
+                            </ul>
+                            <div class="tech-stack-used">
+                                <span>Python</span>
+                                <span>Scikit-learn</span>
+                                <span>Pandas</span>
+                                <span>NumPy</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Prodigy InfoTech -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="role-title">Machine Learning Intern</h3>
+                                    <h4 class="company-name">Prodigy InfoTech</h4>
+                                </div>
+                                <span class="duration-badge">Feb 2025</span>
+                            </div>
+                            <ul class="experience-bullets">
+                                <li>Developed and deployed 5+ machine learning and deep learning models for automation, safety, and data analysis applications.</li>
+                            </ul>
+                            <div class="tech-stack-used">
+                                <span>Machine Learning</span>
+                                <span>Deep Learning</span>
+                                <span>Python</span>
+                                <span>Automation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MSME Technology Centre -->
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="role-title">Java Intern</h3>
+                                    <h4 class="company-name">MSME Technology Centre, Visakhapatnam</h4>
+                                </div>
+                                <span class="duration-badge">Duration: 1 Month</span>
+                            </div>
+                            <ul class="experience-bullets">
+                                <li>Gained foundational knowledge in Java core concepts, object-oriented programming, and enterprise software development practices.</li>
+                            </ul>
+                            <div class="tech-stack-used">
+                                <span>Java</span>
+                                <span>OOP</span>
+                                <span>Software Engineering</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Featured Innovations</span>
+                    <h2 class="section-title">Key AI Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-solid fa-notes-medical project-icon"></i>
+                            <span class="project-badge">Full-Stack AI Ecosystem</span>
+                        </div>
+                        <h3 class="project-title">AI-Enabled Personalized Medication Tracker</h3>
+                        <p class="project-description">
+                            An end-to-end healthcare system built to maximize patient adherence through intelligent visual pill verification, optical character recognition, dynamic scheduling, and automated NLP assistance.
+                        </p>
+                        
+                        <div class="project-metrics">
+                            <div class="metric-item">
+                                <span class="metric-val">94.8%</span>
+                                <span class="metric-lbl">MobileNet Accuracy</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-val">94.05%</span>
+                                <span class="metric-lbl">OCR Label Extraction</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-val">93.0%</span>
+                                <span class="metric-lbl">NLP Intent Accuracy</span>
+                            </div>
+                        </div>
+
+                        <ul class="project-highlights">
+                            <li>Built a visual pill classifier using MobileNet CNN architecture hitting 94.8% accuracy alongside Tesseract OCR for medicine label extraction.</li>
+                            <li>Designed a Reinforcement Learning (RL) smart scheduler dynamically optimizing reminder timings based on patient behavior patterns.</li>
+                            <li>Integrated a conversational healthcare chatbot using NLP (BERT/GPT-based) for intent detection on side-effects and dosage.</li>
+                            <li>Containerized full-stack architecture using Docker, Next.js, Node.js, PostgreSQL, and Prisma ORM for resilient low-latency RESTful APIs.</li>
+                        </ul>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Tesseract OCR</span>
+                            <span>Reinforcement Learning</span>
+                            <span>NLP</span>
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                            <span>Prisma</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-solid fa-hands-asl-interpreting project-icon"></i>
+                            <span class="project-badge">Accessibility & Computer Vision</span>
+                        </div>
+                        <h3 class="project-title">Real-Time Sign Language to Text & Speech System (SLTS-CNN)</h3>
+                        <p class="project-description">
+                            An AI-powered accessibility platform transforming American Sign Language (ASL) gestures into real-time multi-modal text and audio outputs.
+                        </p>
+                        
+                        <div class="project-metrics">
+                            <div class="metric-item">
+                                <span class="metric-val">91.11%</span>
+                                <span class="metric-lbl">Gesture Accuracy</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="metric-val">Real-Time</span>
+                                <span class="metric-lbl">Video Processing</span>
+                            </div>
+                        </div>
+
+                        <ul class="project-highlights">
+                            <li>Created a robust CNN deep learning pipeline integrated with MediaPipe for hand segmentation and OpenCV for live camera stream handling.</li>
+                            <li>Achieved 91.11% recognition accuracy on a custom dataset encompassing alphabetic letters, numeric digits, and punctuation marks.</li>
+                            <li>Implemented multi-modal output engines utilizing Google TTS and pyttsx3 to synthesize live spoken speech from recognized sign sequences.</li>
+                        </ul>
+
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>CNN</span>
+                            <span>MediaPipe</span>
+                            <span>OpenCV</span>
+                            <span>Google TTS</span>
+                            <span>pyttsx3</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+
+                <div class="education-grid">
+                    <div class="education-card primary-edu">
+                        <div class="edu-year">2022 – 2026</div>
+                        <h3 class="degree-title">B.Tech – Computer Science & Engineering (Artificial Intelligence and Machine Learning)</h3>
+                        <h4 class="institution-name"><i class="fa-solid fa-building-columns"></i> GMR Institute of Technology</h4>
+                        <span class="location-text"><i class="fa-solid fa-location-dot"></i> Andhra Pradesh, India</span>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="edu-year">2020 – 2022</div>
+                        <h3 class="degree-title">Intermediate</h3>
+                        <h4 class="institution-name"><i class="fa-solid fa-school"></i> Sri Chaitanya Junior College</h4>
+                        <span class="location-text"><i class="fa-solid fa-location-dot"></i> Andhra Pradesh, India</span>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="edu-year">2019 – 2020</div>
+                        <h3 class="degree-title">CBSE Secondary Schooling</h3>
+                        <h4 class="institution-name"><i class="fa-solid fa-school"></i> DAV Centenary Public School</h4>
+                        <span class="location-text"><i class="fa-solid fa-location-dot"></i> Andhra Pradesh, India</span>
+                        <div class="grade-badge">Grade: 86.6%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications & Certifications Section -->
+        <section class="section pub-cert-section" id="publications">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Research & Recognition</span>
+                    <h2 class="section-title">Publications & Certifications</h2>
+                </div>
+
+                <div class="pub-cert-grid">
+                    <!-- Publication Card -->
+                    <div class="pub-card">
+                        <div class="pub-icon"><i class="fa-solid fa-scroll"></i></div>
+                        <span class="pub-type">Research Journal Publication</span>
+                        <h3 class="pub-title">"A SOFTWARE MOBILE APPLICATION-GROUND WATER LEVEL PREDICATOR"</h3>
+                        <p class="pub-meta">
+                            <strong>Journal:</strong> International Journal of Research Publication and Reviews (IJRPR)<br>
+                            <strong>Details:</strong> Vol. 05, Issue 12, Dec 2024<br>
+                            <strong>Impact Factor:</strong> 6.844
+                        </p>
+                    </div>
+
+                    <!-- Certification Card -->
+                    <div class="cert-card">
+                        <div class="cert-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <span class="cert-type">Professional Certification</span>
+                        <h3 class="cert-title">Generative AI Engineer</h3>
+                        <p class="cert-issuer"><strong>Issuer:</strong> L&T EduTech</p>
+                        <p class="cert-description">
+                            Gained hands-on expertise in cloud-based generative models, large language model (LLM) fine-tuning and development, and advanced computer vision architectures.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Contact Information</h2>
+                </div>
+
+                <div class="contact-card-wrapper">
+                    <div class="contact-info-grid">
+                        <a href="mailto:swarnikamallipudi5@gmail.com" class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <span class="contact-label">Email Address</span>
+                                <span class="contact-value">swarnikamallipudi5@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <a href="tel:+918639549156" class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <span class="contact-label">Phone Number</span>
+                                <span class="contact-value">+91 8639549156</span>
+                            </div>
+                        </a>
+
+                        <a href="https://linkedin.com/in/swarnika-mallipudi-648699289" target="_blank" class="contact-item">
+                            <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div>
+                                <span class="contact-label">LinkedIn Profile</span>
+                                <span class="contact-value">swarnika-mallipudi-648699289</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Andhra Pradesh, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <span class="footer-logo">Mallipudi Swarnika</span>
+                <p>AI/ML Engineer & Full-Stack AI Developer</p>
+            </div>
+            <div class="footer-right">
+                <p>&copy; <span id="current-year"></span> Mallipudi Swarnika. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript Script -->
+    <script src="index.js"></script>
+</body>
+</html>
